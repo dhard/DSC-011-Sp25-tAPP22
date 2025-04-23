@@ -1,0 +1,56 @@
+---
+title: "DSC 011 Sp25 tAPP22: Publication-Quality Graphs with `ggplot2`, Tidy Data, and Pivots"
+author: "FirstName LastName"
+date: today
+format: html
+editor: source
+execute:
+  echo: true
+  browser: true
+self-contained: true
+urlcolor: blue
+linkcolor: red
+---
+
+## Introduction
+
+This Quarto notebook accompanies the tAPP22 swirl course for DSC 011 in Spring 2025.
+
+## Package Dependencies
+
+```{r}
+library(tidyverse)
+library(palmerpenguins)
+library(ggokabeito)
+library(ggforce)
+```
+
+## Publication-Quality Plots with `ggplot2`
+
+### Sina Plots of Body Mass by Penguin Species
+
+```{r}
+
+```
+
+### Flower Morphology in Three Species of Iris
+
+```{r}
+
+```
+
+### Frequency of Top-Ranked Baby Names by Decade and Sex
+
+```{r}
+baby_clean <- read_csv("baby_clean.csv",
+                       col_names = c("decade","rank",
+                                     paste(rep(c("boy","girl"),each=2),
+                                     c("name","freq"),sep="_")),
+                       show_col_types = FALSE)
+```
+### Death Rates by Age, Sex, and Urbanization in Virgina in 1940
+
+```{r}
+
+```
+
