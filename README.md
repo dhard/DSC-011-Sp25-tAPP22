@@ -9,3 +9,6 @@ Statistical Programming, Spring of 2025 offering by Professor David Ardell.
 
 This repo is meant to be used while completing the tAPP22 lesson in the DSC 011 Swirl course in a 
 public repo under my github dhard with course name DSC_011_Sp25.  
+
+The data-file `baby_clean.csv` was obtained and scrubbed from the U.S. Social Security Agency 
+census data in April 2025.
