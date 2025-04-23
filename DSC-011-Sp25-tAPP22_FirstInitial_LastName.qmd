@@ -41,12 +41,17 @@ library(ggforce)
 
 ### Frequency of Top-Ranked Baby Names by Decade and Sex
 
-```{r}
+```{r import}
+## Don't delete this code chunk
 baby_clean <- read_csv("baby_clean.csv", ## read_csv is from tidyverse readr and makes tibbles
                        col_names = c("decade","rank",
                                      paste(rep(c("boy","girl"),each=2),
                                      c("name","freq"),sep="_")),
                        show_col_types = FALSE)  
+```
+
+```{r graph}
+## Instead, paste graph expression here, below this comment
 ```
 ### Death Rates by Age, Sex, and Urbanization in Virgina in 1940
 
